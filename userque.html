@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/uq.css" />
+    <script src="js/bothhndlrs.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+
+
+        <h3 class="body_name">Rushi Patel</h3>
+        <p class="body_name1">6:00pm :20.06.2002</p>
+        <header id="header-auth">
+            <h1>User Page</h1>
+        </header>
+    </div>
+
+    <form action="userque.html" class="auth-form" method="post" id="uqform">
+        <div class="question">
+            <img src="avatar.gif" alt="Avatar" class="avatar">
+            <h3 class="body_name3">Rushi Patel</h3>
+            <p class="body_name4">6:00pm :20.06.2002</p>
+
+            <h2>Write your question here: </h2>
+
+            <div class="answer">
+
+                <div class="answer-ans3">
+                    <p class="input-field">
+                        <textarea id="qbox" class="qbox" placeholder="write you question here...."
+                            rows="9" cols="20"></textarea>
+                         
+                    </p>
+
+                    <div class="countnum">
+                    <strong>WORD COUNTS: <em><em id="countnum">0</em> / <em id="remaining">1500</em></em> REMAINING
+                        WORDS </strong>
+                    <p id="error-text-password" class="error-text hidden">Input must be between 1 to 1500 words.</p>
+                </div>
+                </div>
+
+
+                <div class="submit">
+                    <input type="submit" value="Submit Your Question" />
+                </div>
+            </div>
+
+
+        </div>
+
+    </form>
+    <footer id="footer-auth">
+        <p class="footer-text">CS 215: Lab 3 Solution</p>
+    </footer>
+
+    </div>
+    <script src="js/userque.js"></script>
+</body>
+
+</html>

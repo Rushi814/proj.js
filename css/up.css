@@ -1,0 +1,157 @@
+body {
+  font-family: 'Roboto';
+  background-color: #b1aeae;
+}
+
+.top_name {
+  text-align: right;
+}
+
+#header-auth {
+
+  border-radius: 15px;
+  height: 100px;
+  background-color: #5891FF;
+  text-align: center;
+  color: #f1b708;
+  width: 100%;
+  height: 79%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border-radius: 10px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.header {
+
+  background-color: #5891FF;
+  border-radius: 15px;
+  height: 100px;
+  background-color: #5891FF;
+  text-align: center;
+  color: #f1b708;
+  width: 100%;
+  height: 79%;
+
+}
+
+.logout-button {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  float: right;
+  cursor: pointer;
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.question-container {
+
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  grid-row-start: auto;
+  grid-row-end: auto;
+  grid-column-start: auto;
+  grid-column-end: auto;
+
+}
+
+.question {
+  display: border;
+  border: 2px solid black;
+  width: 100%;
+  background-color: lightgray;
+
+
+  border-radius: 5px;
+}
+
+.mark-answered-button {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: auto;
+  float: right;
+}
+
+.answer {
+  display: grid;
+  border: 2px solid black;
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  grid-gap: 10px;
+}
+
+.post-question-button {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2rem auto;
+  display: block;
+}
+
+.question-question1 {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.answer-ans1 {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 35px;
+
+  margin-top: auto;
+  display: grid;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.answer-ans2 {
+  /* padding: 2px; */
+  padding-left: 10px;
+  font-size: 35px;
+  text-align: left;
+  margin-top: auto;
+  display: grid;
+  border: 2px solid rgb(2, 2, 2);
+  border-radius: 15px;
+}
+
+.answer-ans1-ann1 {
+  text-align: right;
+  text-align: top;
+  font-size: small;
+
+}
+
+#footer-auth {
+  background-color: #5891FF;
+  color: #f1b708;
+  width: 100%;
+  text-align: center;
+  border-radius: 15px;
+  height: 100px;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}

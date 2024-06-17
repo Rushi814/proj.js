@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="referrer" content="unsafe-url">
+    <title>CS215 Homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/russs.css" />
+    <script src="js/bothhndlrs.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header id="header-auth">
+            <h1>Sign-Up Page</h1>
+        </header>
+        <main id="main-left">
+
+        </main>
+        <main id="main-center">
+            <form action="login.html" method="post" class="auth-form" id="signup-form">
+                <div class="input-field">
+                   
+                    <label class="selecting">
+                    <input type="radio" name="option" value="option1">
+                    User
+                    </label></br>
+                    <label>
+                    <input type="radio" name="option" value="option2">
+                    Tech-User
+                    </label>
+                    <p id="error-text-selecting" class="error-text hidden"></p>
+
+                </div>
+                <div class="input-field">
+
+
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" />
+                    <p id="error-text-ename" class="error-text hidden">Email is invalid</p>
+                   
+                </div>
+              
+                <div class="input-field">
+
+                    <label for="username"> username:</label>
+                    <input type="text" name="username" id="username" />
+                    <p id="error-text-uname" class="error-text hidden">Username is invalid</p>
+
+                </div>
+                <div class="input-field">
+
+                    <label for="password"> password:</label>
+                    <input type="password" name="password" id="password" />
+                    <p id="error-text-password" class="error-text hidden">Password is invalid</p>
+
+                </div>
+                <div class="input-field">
+                    <label for="cpassword">confirm password:</label>
+                    <input type="password" name="cpassword" id="cpassword" />
+                    <p id="error-text-password" class="error-text hidden">password is not matching</p>
+
+                </div>
+                <div class="input-field">
+
+                    <label for="dateOfBirth">Date of Birth:</label>
+                    <input type="date" name="dateOfBirth" id="dateOfBirth" />
+                    <p id="error-text-dateOfBirth" class="error-text hidden">Date of Birth is invalid</p>
+
+                </div>
+                <div class="input-field">
+
+                    <label for="profilephoto">Profile Image</label>
+                    <input type="file" name="profilephoto" accept="image/*" id="profilephoto" />
+                    <p id="error-text-profilephoto" class="error-text hidden">profilephoto is invalid</p>
+
+
+                </div>
+
+                <div class="input-field">
+
+
+                    
+                    <input type="submit" class="form-submit" value="Signup" />
+
+
+
+                </div>
+            </form>
+            <div class="foot-note">
+
+                <a href="login.html">Already have an account? login</a>
+
+            </div>
+        </main>
+        <main id="main-right">
+
+        </main>
+        <footer id="footer-auth">
+            <p class="footer-text">CS 215: Lab 3 Solution</p>
+            <p><a
+                    href="https://validator.w3.org/check%3Furi%3Dhttp%253A%252F%252Fwww.webdev.cs.uregina.ca%252F%257Erdp814%252Flab3%252Fsignup.html%26charset%3D%2528detect%2Bautomatically%2529%26doctype%3DXHTML%2B1.1%26group%3D0">XHTML
+                    1.1 checker</a></p>
+        </footer>
+    </div>
+    <script src="js/signuphandler.js"></script>
+</body>
+
+</html>

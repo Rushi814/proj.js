@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>CS215 Homepage</title>
+    <link rel="stylesheet" type="text/css" href="css/sing.css" />
+    <script src="js/bothhndlrs.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header id="header-auth">
+            <h1> Login Page </h1>
+       
+        <button class="usseer" id="aaa"><a href="userpage.html">User</a></button>
+        <button class="techoruser"><a href="techuser.html">Tech-User</a></button>
+     </header>    <main id="main-left">
+
+        </main>
+        <main id="main-center">
+
+            <form action="userpage.html" method="post" class="auth-form" id="login-form">
+               
+            <div class="input-field">
+                <label class="selecting">
+                    <input type="radio" name="option" value="option1">
+                    User
+                    </label></br>
+                    <label>
+                    <input type="radio" name="option" value="option2">
+                    Tech-User
+                    </label>
+                    <p id="error-text-selecting" class="error-text hidden"></p>
+
+            </div>
+                <div class="input-field">
+
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" />
+                    <p id="error-text-email" class="error-text hidden">Email is invalid</p>
+
+                </div>
+                <div class="input-field">
+
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" />
+                    <p id="error-text-pwd" class="error-text hidden">password is invalid</p>
+
+                </div>
+
+                <div class="input-field">
+
+                    <input type="submit" class="form-submit" value="Login" />
+                </div>
+            </form>
+            <div class="foot-note">
+
+                <p>Don't have an account ?<a href="signup.html"> signup</a></p>
+
+            </div>
+
+
+        </main>
+        <main id="main-right">
+
+        </main>
+        <footer id="footer-auth">
+            <p class="footer-text">CS 215: Lab 3 Solution</p>
+            <p><a
+                    href="https://validator.w3.org/check%3Furi%3Dhttp%253A%252F%252Fwww.webdev.cs.uregina.ca%252F%257Erdp814%252Flab3%252Flogin.html%26charset%3D%2528detect%2Bautomatically%2529%26doctype%3DXHTML%2B1.1%26group%3D0">XHTML
+                    1.1 checker</a></p>
+        </footer>
+    </div>
+    <script src="js/loginhandler.js"></script>
+</body>
+
+</html>
